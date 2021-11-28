@@ -76,7 +76,7 @@ a {
     display: flex;
     justify-content: center;    
     align-items: center;
-    padding: 15px;
+    margin: 0 15px ;
     border-bottom: 4px solid white;
     font-weight: 16px;
 }
@@ -118,12 +118,13 @@ a:hover {
     border-radius: 20px;
     left: 10px;
     top: 36px;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     font-size: 9px;
     font-weight: 700;
     color: white;
+
 }
 
 
@@ -146,7 +147,7 @@ a:hover {
         width: 50%;
         top: 0;
         background-color: white;
-        left: -100%;
+        left: -60%;
         transition: all 0.5s ease;
     }
 
@@ -164,7 +165,9 @@ a:hover {
     a {
         border: none;
         font-weight: 700;
-        color: hsl(220, 13%, 13%)
+        color: hsl(220, 13%, 13%);
+        padding: 10px 0;
+        font-size: 18px;
     }
 
     a:hover {
@@ -177,8 +180,8 @@ a:hover {
     }
 
     .cross img {
-        height: 18px;
-        margin-left: 12px; 
+        height: 16px;
+        margin-left: 14px; 
         cursor: pointer;
     }
 
@@ -189,5 +192,14 @@ a:hover {
     .user {
         padding: 20px;
     }
+
+    .user img:first-child {
+        height: 20px;
+    }
     
+    .item {
+        left: 28px
+    }
+
+
 }
