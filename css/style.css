@@ -73,3 +73,20 @@ a:hover {
     color: hsl(220, 13%, 13%);
     border-bottom: 4px solid hsl(26, 100%, 55%);
 }
+
+.user {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.user img {
+    height: 20%;
+}
+
+.user img:last-child {
+    height: 50%;
+    margin-left: 50px;
+}
