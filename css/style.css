@@ -1,3 +1,40 @@
+/* GENERAL STYLE */
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utilities */
 body {
-    background-color: red;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.px-15 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.debug {
+    bordeR: 1px solid red;
+}
+
+/* Header */
+header {
+    background-color:  hsl(0, 0%, 100%);
+}
+
+.header {
+    height: 110px;
+    border-bottom: 1px solid hsl(220, 14%, 75%);
 }
